@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.scss"],"names":[],"mappings":"AAAA,QACE,iBAAA,CACA,KAAA,CACA,MAAA,CACA,QAAA,CACA,OAAA,CACA,UAAA,CACA","file":"dapple.ef7a27a0.css","sourceRoot":"..","sourcesContent":["#player {\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  width: 100%;\n  height: 100%;\n}\n"]}
