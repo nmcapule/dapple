@@ -9,8 +9,7 @@
     <link type="text/css" rel="stylesheet" href="index.scss" />
   </head>
   <body>
-    <div id="container"></div>
-    <svg id="blocker" xmlns="http://www.w3.org/2000/svg">
+    <svg xmlns="http://www.w3.org/2000/svg">
       <filter id="pixelate" x="0" y="0">
         <feFlood x="2" y="2" height="1" width="1" />
         <feComposite width="10" height="10" />
@@ -18,17 +17,8 @@
         <feComposite in="SourceGraphic" in2="a" operator="in" />
         <feMorphology operator="dilate" radius="2.5" />
       </filter>
-      <foreignObject width="100%" height="100%" filter="url(#pixelate)">
-        <iframe
-          width="800"
-          height="600"
-          src="https://www.youtube.com/embed/FtutLA63Cp8?autoplay=1"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </foreignObject>
     </svg>
+    <div style="filter: url(#pixelate)" id="player"></div>
+    <script src="index.ts"></script>
   </body>
 </html>
