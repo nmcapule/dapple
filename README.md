@@ -1,5 +1,7 @@
 # Dapple
 
+![preview](./docs/apple.png)
+
 Quick attempt to render Bad Apple with filters.
 
 I wanted to be able to read the pixels shown when a Youtube video is playing,
