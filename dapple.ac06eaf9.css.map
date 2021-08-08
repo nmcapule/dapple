@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.scss"],"names":[],"mappings":"AAAA,KACE,sBAGF,SACE,iBAAA,CACA,KAAA,CACA,MAAA,CACA,QAAA,CACA,OAAA,CACA,UAAA,CACA","file":"dapple.ac06eaf9.css","sourceRoot":"..","sourcesContent":["body {\n  background-color: #ffffff;\n}\n\n#blocker {\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  width: 100%;\n  height: 100%;\n}\n"]}
